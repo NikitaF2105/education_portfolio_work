@@ -1,0 +1,412 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* INTRO  */
+
+main {
+  max-width: 1900px;
+}
+.intro {
+  background-color: rgb(101, 0, 255);
+  margin-bottom: 50px;
+  height: 100vh;
+}
+/* HEADER */
+header {
+  width: 1170px;
+  height: 98px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 130px;
+}
+input {
+  display: none;
+}
+/* LOGO */
+.logo {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+/* NAVIGATION */
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav a {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.nav a:hover {
+  text-decoration: underline;
+  color: #ff5f60;
+}
+
+.nav a.active {
+  color: #ff5f60;
+  text-decoration: underline;
+}
+
+.button a {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 45px;
+  border-radius: 22px;
+  background-color: #ff5f60;
+}
+
+.button a:hover {
+  background-color: #ffffff;
+  color: #ff5f60;
+}
+
+/* EDUCATION */
+.education {
+  width: 1170px;
+  margin: auto;
+  display: flex;
+}
+.education-text {
+  width: 585px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.education-text h1 {
+  font-size: 70px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.education-text p {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 600;
+  font-family: "Open Sans";
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.education-text a {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 45px;
+  border-radius: 22px;
+  background-color: #ff5f60;
+}
+.education-text a:hover {
+  background-color: #ffffff;
+  color: #ff5f60;
+}
+.education-img {
+  width: 585px;
+}
+.education-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* SECTION */
+.content-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.text-1 {
+  width: 575px;
+  text-align: center;
+  margin-bottom: 120px;
+}
+.text-1 p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #222222;
+  font-weight: 400;
+  font-family: "Open Sans";
+  font-style: oblique;
+  margin-bottom: 20px;
+}
+.text-1 strong {
+  font-size: 16px;
+  line-height: 30px;
+  color: #fb8122;
+  font-weight: 600;
+  font-family: "Poppins";
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-btn {
+  width: 11px;
+  height: 11px;
+  display: block;
+  position: relative;
+  margin-right: 10px;
+}
+.slider-btn::before {
+  content: "";
+  width: 11px;
+  height: 11px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  border-radius: 6px;
+  background-color: #fed9bc;
+  margin-bottom: 100px;
+}
+.slider-btn:hover::before {
+  background-color: #fb8122;
+}
+
+/* TEXT-2 */
+
+.text-2 {
+  display: flex;
+  margin-bottom: 120px;
+}
+.text-img {
+  margin-right: 70px;
+}
+.text-box {
+  width: 570px;
+  margin-left: 50px;
+}
+.text-box h2 {
+  font-size: 36px;
+  color: #333333;
+  font-weight: 600;
+  font-family: "Raleway";
+  margin-bottom: 48px;
+}
+.text-box p {
+  font-size: 17px;
+  line-height: 27px;
+  color: #8c8c8c;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin-bottom: 40px;
+}
+.text-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* TEXT-3 */
+.text-3 {
+  display: flex;
+  margin-bottom: 120px;
+}
+.text-box-2 {
+  width: 570px;
+}
+.text-box-2 h2 {
+  font-size: 36px;
+  color: #333333;
+  font-weight: 600;
+  font-family: "Raleway";
+  margin-bottom: 48px;
+}
+.text-box-2 p {
+  font-size: 17px;
+  line-height: 27px;
+  color: #8c8c8c;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin-bottom: 40px;
+}
+text-img-2 {
+  margin-left: 70px;
+}
+
+.button-2 a {
+  width: 170px;
+  height: 45px;
+  border-radius: 23px;
+  background-color: #ff5f60;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Raleway";
+}
+.button-2 a:hover {
+  color: #ff5f60;
+  background-color: #ffffff;
+  border: 1px solid #ff5f60;
+  border-radius: 23px;
+}
+
+/* ICON-BOX */
+.icon-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-box span {
+  display: block;
+  position: relative;
+}
+
+.content {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.content h3 {
+  font-size: 25px;
+  color: #333333;
+  font-weight: 600;
+  font-family: "Raleway";
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content p {
+  font-size: 17px;
+  line-height: 27px;
+  color: #8c8c8c;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+  margin-bottom: 120px;
+}
+.ico-service-1 {
+  width: 135px;
+  height: 135px;
+  border-radius: 67px;
+  filter: drop-shadow(0px 10px 31px #86dffd);
+  background-color: #4bd2ff;
+  margin-bottom: 50px;
+}
+
+.icon-Global-Citizen-595b40b85ba036ed117dd3a1:before {
+  content: "\e901";
+  font-size: 72px;
+  color: #ebecff;
+  width: 135px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-service-2 {
+  width: 135px;
+  height: 135px;
+  border-radius: 68px;
+  filter: drop-shadow(0px 10px 31px #bcaffd);
+  background-color: #694bff;
+  margin-bottom: 50px;
+}
+
+.icon-innovation:before {
+  content: "\e902";
+  font-size: 70px;
+  color: #ebecff;
+  width: 135px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico-service-3 {
+  width: 135px;
+  height: 135px;
+  border-radius: 67px;
+  filter: drop-shadow(0px 10px 31px #ffd7a3);
+  background-color: #ffb14b;
+  margin-bottom: 50px;
+}
+.icon-e-learning:before {
+  content: "\e900";
+  font-size: 60px;
+  color: #ebebfb;
+  width: 135px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* FOOTER */
+
+footer {
+  width: 1170px;
+  height: 120px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about ul {
+  display: flex;
+  justify-content: space-between;
+}
+.about a {
+  margin-left: 30px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  color: #c9c9c9;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+.about a:hover {
+  text-decoration: underline;
+}
+
+.copyrighting {
+  font-size: 14px;
+  line-height: 30px;
+  color: #c9c9c9;
+  font-weight: 400;
+  font-family: "Poppins";
+}
